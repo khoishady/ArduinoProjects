@@ -128,18 +128,18 @@ void loop()
     } 
     Serial.println("  end");
   }
-  if (data2esp_buff[6]*256+data2esp_buff[7] > 30) {
-    tone(buzzer, 250);     
-    delay(500);                             
-    noTone(buzzer);                      
-    delay(500);  
-    tone(buzzer, 250);     
-    delay(500);                             
-    noTone(buzzer);                      
+  //if (data2esp_buff[6]*256+data2esp_buff[7] > 30) {
+    //tone(buzzer, 250);     
+    //delay(500);                             
+    //noTone(buzzer);                      
+    //delay(500);  
+    //tone(buzzer, 250);     
+    //delay(500);                             
+    //noTone(buzzer);                      
              
-  }
-  else {                                    //IF NO MOTION IS DETECTED.
-    noTone(buzzer);                      //SILENT THE BUZZER.
+  //}
+  //else {                                    //IF NO MOTION IS DETECTED.
+    //noTone(buzzer);                      //SILENT THE BUZZER.
    
-  }
+  //}
   }
